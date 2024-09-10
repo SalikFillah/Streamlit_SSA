@@ -52,7 +52,7 @@ elif selected == 'Config':
         N = len(data)
 
         # Membatasi L antara 2 dan N/2
-        min_value = 2
+        min_value = 5
         max_value = N // 2  # Membatasi L hingga N/2 (dibulatkan ke bawah)
 
         # Membuat slider dengan batas L yang disesuaikan
