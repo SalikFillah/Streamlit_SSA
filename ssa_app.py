@@ -100,7 +100,7 @@ elif selected == 'Result':
         # Gabungkan dengan data time-series asli
         ntp_ssa = pd.concat([data, new_ntp], axis=1)
 
-        st.write("Berikut adalah tampilan data deret waktu baru setelah reduksi SSA dengan panjang L: {L}")
+        st.write(f"Berikut adalah tampilan data deret waktu baru setelah reduksi SSA dengan panjang L: {L}")
         st.write(ntp_ssa.head())
         st.write(f"Jumlah Kolom : {ntp_ssa.shape[1]}")
         st.write(f"Jumlah Baris : {ntp_ssa.shape[0]}")
